@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bg-primary-darker{
+    background-color: #264653;
+}
+
+.header{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header button:hover{
+    background-color: red;
+}
+
+.header button:focus{
+    background-color: green;
+}
+
+.header button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.header textarea{
+    height: 40%;
+    width: 80%;
+}
+
+.header input{
+    width: 60%;
+}
